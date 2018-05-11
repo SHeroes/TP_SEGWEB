@@ -1,0 +1,62 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body {
+    padding-top: 0px;
+    line-height: 16px;
+    /*  background-color: #80c191;  */
+}
+
+/*  SECTOR DE ADMINISTRADOR  */
+.remove_field.btn.btn-danger.btn-number , .add_field_button.btn.btn-success.btn-number{ 
+    vertical-align: top;
+    margin-top: 30px;   
+}
+
+.remove_field.btn.btn-danger.btn-number{
+    margin-left: 5px;
+}
+
+#columna-pasos-hechos div{
+    padding: 3px;
+}
+
+#columna-pasos-hechos .header{
+    background-color: bisque;
+    border: solid 2px;
+}
+
+#columna-pasos-hechos .ck-list{
+    background-color: #4db2a8;
+    padding: 5px;
+    border-bottom: solid 1px;
+    border-left: solid 2px;
+    border-right: solid 2px;
+}
+
+#paso-selector{
+    cursor: pointer;
+}
+
+h8{
+    font-style: italic;
+    font-size: 11px;
+    color: red;
+}
+
+.list-pasos div{
+    border: solid 1px;
+    background-color: bisque;
+}
+
+#inputs-tipo-tramite{
+    margin-top: 60px;
+}
+
+#inputs-tipo-tramite button{
+    margin-top: 70px;
+}
+

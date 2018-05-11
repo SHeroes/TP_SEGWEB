@@ -1,0 +1,405 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body {
+    padding-top: 0px;
+    line-height: 16px;
+    /*  background-color: #80c191;  */
+}
+
+
+hr {
+    margin: 1px;
+}
+.modal {
+    width: auto;
+    left: 57%;
+}
+
+label.checkbox {
+    float: none;
+    margin-top: -6px;
+    margin-bottom: 15px;
+    margin-left: 1px;
+    width: 280px;
+}
+
+.userInfo {
+    padding: 10px 0px;
+}
+
+.userInfoSpan2 {
+    margin-left: 10px;
+    font-size: 13px;
+    font-style: italic;
+}
+
+.userTeamBadge {
+    float: right;
+    margin-right: 6px;
+}
+
+.table{
+    border: solid 2px lightgrey;
+}
+.title-site{
+    font-family: "PT Sans", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0px;
+    font-size: 23px;
+    background: url(/assets/img/headerBg1px1.png) ;
+    background-repeat-y: no-repeat;
+    background-size: contain;
+}
+
+#title-cav{
+    background: url(/assets/img/logo1x.png) no-repeat;
+    color: #FFF;
+    background-size: 130px;
+    /* padding: 1px 130px; */
+}
+
+.glyphicon {
+    padding-right: 5px;
+}
+
+.reitero-num{
+    cursor:pointer;
+    text-align: center;
+}
+
+tr.reclamo_row.reitero1 {
+    background-color: indianred;
+}
+
+tr.reclamo_row.reitero2 {
+    background-color: red;
+}
+
+tr.reclamo_row.reitero3 {
+    background-color: red;
+}
+
+tr.reclamo_row.reitero4 {
+    background-color: red;
+}
+
+tr.reclamo_row.reitero5 {
+    background-color: red;
+}
+
+.navbar.navbar-default.upload-form{
+    background-color: #80c191;
+    border: none;
+}
+
+/* ------------------- */ 
+
+
+#title-cav{
+    font-size: 20px;
+}
+
+
+#title-cav h2{
+    font-size: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-family: inherit;
+    margin-left: -35px;
+    font-style: inherit;
+    font-weight: 100;
+}
+
+#title-cav h4{
+    
+}
+
+#title-cav .iconos{
+    margin-top: 30px;
+}
+
+#title-cav .social{
+    margin-top: 20px;
+}
+
+.iconos{
+    border-left: 1px solid #9f9f9f;    
+}
+
+.social h4 {
+    float: right;
+    font-size: 0.6em;
+    position: relative;
+    top: 12px;
+    /* color: #92211d; */
+    color: #FFF;
+    text-align: right;
+    font-weight: 600;
+}
+.icono{
+    float: left;
+}
+
+tr.vecinos_filtrados:hover{
+    color:red;
+    font-weight: bold;
+}
+.vecinos_filtrados th{
+    cursor: pointer;
+}
+
+.vecinos_filtrados td{
+    cursor: pointer;
+}
+
+.main-box .alert{
+    padding: 0px;
+}
+
+.alert .fa-exclamation {
+    border-radius: 50%;
+    background: #ed1b2f;
+    font-size: 4em;
+    color: #FFFFFF;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding: 3px;
+    border: 3px solid #FFFFFF;
+    position: absolute;
+    z-index: 1;
+    top: -6px;
+    left: -10px;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.alert p {
+    background: #ed1b2f;
+    padding: 0px 15px;
+    color: #FFFFFF;
+    font-size: 1.6em;
+    line-height: 1.6em;
+    font-weight: 200;
+    text-transform: uppercase;
+    width: 99%;
+    height: 33px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.fa-exclamation:before {
+    content: "\f12a";
+}
+
+.nombre-vecino{
+    padding-top: 10px;
+    padding-left: 10px;
+    font-family: cursive;
+    border: solid 1px;
+    background-color: darkgrey;
+}
+.calle.input-search-result{
+  background-color: #dfdcbf;
+  margin-bottom: 10px;
+}
+.calle.input-search-result div{
+      border-bottom: 1px solid white;
+}
+.calle.input-search-result div:hover{
+  font-weight: 600;
+}
+
+.calle.input-search-result .hover{
+  font-weight: 600;
+}
+.container h1, .container h2{
+    font-family: monospace;
+    font-style: italic;
+    font-weight: 600;
+    margin: 20px 10px;
+}
+.container h1{
+
+}
+.container h2{
+
+}
+
+#tramite-selector-bar{
+    position: absolute;
+    left: 0px;
+    padding: 20px;
+    padding-left: 15%;
+    background-color: #eceded;
+    width: 100%;
+}
+#tramite-selector-bar-space{
+    margin-top: 73px;
+}
+
+#tramite-selector-bar .link-orange a{
+    background-color: #f1592a;
+    text-decoration: none;
+    font-size: 14px;
+    /* text-transform: capitalize; */
+    color: white;
+    /* padding: 10px; */
+    /* margin-top: 20px; */
+    position: relative;
+    top: 9px;
+    padding: 5px 30px;
+}
+
+#selector_ttr select{
+    text-transform: uppercase;
+    /* font-weight: 600; */
+    color: black;
+}
+
+.vecino_chose_tramite .heading h4{
+    font-size: 24px;
+    background-color: darkred;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 5px 5px 15px;
+}
+
+.vecino_chose_tramite .heading a{
+    color: white;
+    font-family: sans-serif;
+}
+
+.vecino_chose_tramite .heading a:hover{
+    color: lightgray;
+    text-decoration: none;
+}
+
+
+.glyphicon.Vecino:before {
+    content: "\e008";
+}
+.glyphicon.Comercio:before {
+    content: "\e148";
+}
+.glyphicon.Transporte:before {
+    content: "\e108";
+}
+.glyphicon.Sociales:before {
+    content: "\e135";
+}
+
+ul.grup-tramite-list{
+
+}
+ul.grup-tramite-list li{
+    padding: 9px;
+    font-size: 22px;
+}
+ul.grup-tramite-list a{
+    color: grey;
+    font-size: 22px;
+    font-family: monospace;
+    text-decoration: unset;
+    text-transform: uppercase;    
+}
+ul.grup-tramite-list a:hover{
+    color:black;
+}
+
+.show-ttr h2, .show-ttr h3{
+    color: #de1f49;
+    font-weight: 800;
+    font-family: sans-serif;
+    font-style: initial;    
+}
+.show-ttr h3{
+    font-size: 30px;
+}
+
+.show-ttr h2{
+    font-size: 38px;
+    margin: 20px 0 20px 0;
+    text-transform: capitalize;
+}
+.show-ttr h4{
+    
+}
+
+.paso-paso .num{
+    background: #de1f49;
+    border-radius: 50%;
+    padding: 9px;
+    color: #FFFFFF;
+    width: 47px;
+    font-size: 2em;
+    line-height: 1em;
+    font-weight: 900;
+    height: 47px;
+    text-align: center;
+    float: left;
+    margin: 0 10px 10px 0;
+}
+
+.paso-paso .paso-titulos{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.paso-paso .paso-content{
+    font-size: 18px;
+    font-style: italic;
+}
+
+.paso-paso .checklist{
+    margin-top: 10px;
+    font-family: monospace;
+    margin-left: 70px;
+}
+.paso-paso span{
+    margin-left: 70px;
+}
+.paso-paso h6{
+    margin-left: 70px;
+    color: black;
+    font-weight: bold;
+}
+.paso-paso a{
+    color: #AAA;
+}
+
+.paso {
+    margin: 5px 0px 25px 0px;
+    border-bottom: solid 1px #888;
+    padding-bottom: 10px;
+}
+
+#form-iniciarTramite{
+    margin: 40px 0px 30px 10px;
+}
+#form-iniciarTramite .btn{
+    margin: 40px 0px 40px 40px;
+}
+
+footer{
+    position: absolute;
+    left: 0px;
+    padding: 20px;
+    padding-left: 15%;
+    background-color: #404041;
+    width: 100%;
+}
+
+footer .textwidget{
+    color:white;
+}

@@ -1,0 +1,151 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body {
+    padding-top: 0px;
+    line-height: 16px;
+    background-color: #80c191; 
+}
+
+hr {
+    margin: 1px;
+}
+.modal {
+    width: auto;
+    left: 57%;
+}
+
+label.checkbox {
+    float: none;
+    margin-top: -6px;
+    margin-bottom: 15px;
+    margin-left: 1px;
+    width: 280px;
+}
+
+.userInfo {
+    padding: 10px 0px;
+}
+
+.userInfoSpan2 {
+    margin-left: 10px;
+    font-size: 13px;
+    font-style: italic;
+}
+
+.userTeamBadge {
+    float: right;
+    margin-right: 6px;
+}
+
+.table{
+    border: solid 2px lightgrey;
+}
+.title-site{
+    font-family: "PT Sans", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0px;
+    font-size: 23px;
+    background: url(/assets/img/headerBg1px1.png) ;
+}
+
+#title-cav{
+
+    padding: 22px 70px;
+    color: #FFF;
+}
+
+.glyphicon {
+    padding-right: 5px;
+}
+
+.reitero-num{
+    cursor:pointer;
+    text-align: center;
+}
+
+tr.reclamo_row.reitero1 {
+    background-color: indianred;
+}
+
+tr.reclamo_row.reitero2 {
+    background-color: red;
+}
+
+tr.reclamo_row.reitero3 {
+    background-color: red;
+}
+
+tr.reclamo_row.reitero4 {
+    background-color: red;
+}
+
+tr.reclamo_row.reitero5 {
+    background-color: red;
+}
+
+.navbar.navbar-default.upload-form{
+    background-color: #80c191;
+    border: none;
+}
+
+.reporte_global_sec, .reporte_global, .tbl-reclamos-tr{
+    background-color: rgb(249, 198, 52);
+    font-size: 18px;
+    font-weight: bolder;
+    font-style: italic;
+    padding: 10px;
+}
+
+.reporte_composicion_ofi{
+    background-color: rgb(249, 198, 152);
+    font-size: 18px;
+    font-weight: bolder;
+    font-style: italic;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.thead-rep-tipo-rec{
+
+}
+
+tr.lightGrey{
+    background-color: #86c6e5;
+}
+.reporte-treclamo{
+
+}
+.table.reporte-treclamo{
+    margin: 0px;
+}
+.table.reporte-treclamo .tbl-sec-glob-tr{
+    background-color: white;
+}
+
+.reporte_global{
+    margin-top: 20px;
+}
+.tbl-sec-glob-tr, .tbl-ofi-glob-tr {
+    background-color: lightgrey;
+}
+
+tr#header-table.fixed{
+    position: fixed;
+    top: 0px;
+}
+
+tr#header-table{
+    background: orange;
+}
+
+.reporte .table thead.thead-inverse{
+    cursor: pointer;
+}
+
+.reclamo_row.greySelected{
+    background-color: darkgrey;
+}
