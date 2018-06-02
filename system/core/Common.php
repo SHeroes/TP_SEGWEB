@@ -313,6 +313,7 @@ if ( ! function_exists('get_mimes'))
 	 *
 	 * @return	array
 	 */
+	/*
 	function &get_mimes()
 	{
 		static $_mimes;
@@ -335,6 +336,24 @@ if ( ! function_exists('get_mimes'))
 
 		return $_mimes;
 	}
+*/
+
+	function &get_mimes() { static $_mimes = array();
+	    if (defined('ENVIRONMENT') && is_file(APPPATH.'config/'.ENVIRONMENT.'/mimes.php'))
+	    {
+	        include(APPPATH.'config/'.ENVIRONMENT.'/mimes.php');
+	        $_mimes = $mimes;
+	    }
+	    elseif (is_file(APPPATH.'config/mimes.php'))
+	    {
+	        include(APPPATH.'config/mimes.php');
+	        $_mimes = $mimes;
+	    }
+	    return $_mimes;
+	}
+
+
+
 }
 
 // ------------------------------------------------------------------------
