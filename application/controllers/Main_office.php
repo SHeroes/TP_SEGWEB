@@ -86,7 +86,10 @@ class Main_office extends CI_Controller{
       if( !isset($info['desde']))                       $info['desde'] = '';
       if( !isset($info['hasta']))                       $info['hasta'] = '';
       if( !isset($info['nro_rec']))                     $info['nro_rec'] = '';
-      if( !isset($info['apellido']))                    $info['apellido'] = ''; // else $info['apellido'] = preg_replace("/[^a-zA-ZñáéíóúÁÉÍÓÚÑ ]/", "", $info['apellido']);
+
+      if( !isset($info['apellido']))                    $info['apellido'] = ''; 
+       else $info['apellido'] = preg_replace("/[^a-zA-ZñáéíóúÁÉÍÓÚÑ ]/", "", $info['apellido']);
+
       if( !isset($info['dni']))                         $info['dni'] = '';
     } else {
       $info['status_filter_selector'] = '';
