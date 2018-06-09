@@ -549,6 +549,9 @@ class Reclamo_m extends CI_Model {
 
   function armar_filtro_vecino($cond_str, $nro_rec, $apellido, $dni){
     $nro_rec != '' ? $cond_str = $cond_str . " AND codigo_reclamo LIKE '%" . $nro_rec ."%'" : '' ;
+
+   // $apellido = preg_replace("/[^a-zA-ZñáéíóúÁÉÍÓÚÑ ]/", "", $apellido);//saneamiento
+
     $apellido != '' ? $cond_str = $cond_str . " AND vecino.apellido LIKE '%" . $apellido ."%'" : '' ;
     $dni != '' ? $cond_str = $cond_str . " AND vecino.dni LIKE '%" . $dni ."%'" : '' ;
 

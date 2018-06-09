@@ -20,10 +20,10 @@
          $config['upload_path']   = './uploads/'; 
          
 
-         //$config['allowed_types'] = '*';
+         $config['allowed_types'] = '*';
 
          /* LINEA Q CORRIJE */
-         $config['allowed_types'] = 'jpeg|jpg|gif|bmp|png';
+         //$config['allowed_types'] = 'jpeg|jpg|gif|bmp|png';
          /********************/
 
 

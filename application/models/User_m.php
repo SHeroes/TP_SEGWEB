@@ -15,7 +15,14 @@ class User_m extends CI_Model {
         return $id;
     }
 
+
     function validate_user( $email, $password ) {
+
+        /*
+            $salt = substr($email,1,2);
+            $password = $salt.$password;
+        */
+
         // Build a query to retrieve the user's details
         // based on the received username and password
         $this->db->from('user');
